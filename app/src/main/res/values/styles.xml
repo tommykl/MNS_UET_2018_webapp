@@ -1,0 +1,21 @@
+<!--
+  ~ MNS_UET_2018_webapp Created by Tommy KL on 2018/1/21.
+  ~ Website Created by Ali Husnain Arshad.
+  ~
+  ~ Tommy KL is a professional in front-end development, web application, e-commerce, UI design, 3D modeling,& QR code creator design.
+  ~ Please assists me and providing me for further projects development.
+  ~
+  ~ Copyrights (c) 2018. All rights reserved.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

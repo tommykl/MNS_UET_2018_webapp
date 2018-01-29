@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ MNS_UET_2018_webapp Created by Tommy KL on 2018/1/21.
+  ~ Website Created by Ali Husnain Arshad.
+  ~
+  ~ Tommy KL is a professional in front-end development, web application, e-commerce, UI design, 3D modeling,& QR code creator design.
+  ~ Please assists me and providing me for further projects development.
+  ~
+  ~ Copyrights (c) 2018. All rights reserved.
+  -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ml.mnsuet.mns_uet_2018_webapp.MainActivity">
+
+    <ImageView
+        android:src="@android:drawable/divider_horizontal_dim_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="368dp"
+        android:layout_height="654dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+</android.support.constraint.ConstraintLayout>
